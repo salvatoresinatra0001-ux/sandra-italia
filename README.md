@@ -18,6 +18,7 @@ e puntare il DNS a GitHub Pages. Non è stato aggiunto perché il DNS non è con
 - `index.html` — Home
 - `biografia.html` — Biografia
 - `discografia.html` — Discografia
+- `ascolta.html` — Ascolta
 - `concerti.html` — Concerti
 - `media.html` — Media
 - `fonti.html` — Fonti e metodo
@@ -55,6 +56,7 @@ Copertine, foto stampa e fotogrammi di videoclip non sono immagini libere.
 - **Date italiane** — Scorrere lo storico completo delle scalette, non solo le voci in evidenza.
 - **Canali ufficiali** — Individuare e verificare sito e profili ufficiali attivi; finché non sono verificati non vengono linkati.
 - **Immagini** — Verificare file per file autore, licenza e risoluzione su archivi liberi prima di qualunque pubblicazione fotografica.
+- **Profilo Apple Music** — Riconfermare l'identificativo 1697889245: i brani corrispondono, l'elenco degli album no.
 
 ## Modifiche
 
