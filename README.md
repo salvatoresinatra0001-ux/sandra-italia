@@ -43,9 +43,7 @@ La precisione della data (giorno / mese / anno) è un campo distinto dalla solid
 
 ## Immagini
 
-Nessuna fotografia dell'artista è inclusa in questa versione: gli archivi a licenza libera non
-erano raggiungibili in fase di compilazione. Gli spazi sono predisposti e dichiarati in
-`crediti-foto.html`, che contiene anche le regole di inserimento e il formato della didascalia.
+Le fotografie riutilizzabili sono raccolte in `fotografie.html` con attribuzione individuale e licenze verificate; i dettagli sono in `crediti-foto.html`. Il materiale grafico proveniente da etichette e blog necessita di verifica separata dei diritti.
 Copertine, foto stampa e fotogrammi di videoclip non sono immagini libere.
 
 ## Controlli ancora aperti
@@ -70,7 +68,7 @@ della tabella e, se cambia il livello di verifica, il relativo indicatore di sol
 ## Redesign editoriale v3 (16 ottobre 2026)
 
 - Home aggiornata con fotografia reale di Sandra, documentazione, percorso di navigazione e album in evidenza.
-- `fotografie.html`: sei fotografie verificate di Sven Mandel (Frankfurt 2025), CC BY-SA 4.0, credito e link al file originale per ciascuno. Immagini servite da Wikimedia Commons.
+- `fotografie.html`: sei fotografie verificate di Sven Mandel (Frankfurt 2025), più due documentate del 2007 e 2017, CC BY-SA 4.0, credito e link al file originale per ciascuno. Immagini servite da Wikimedia Commons.
 - `edizioni.html`: dieci album, varianti e collegamento alla preesistente galleria di 24 copertine.
 - `concerti.html`: riportate solo le date future verificate sul sito ufficiale.
 - `media.html`: contenuto editoriale con approfondimenti e risorse ufficiali.
@@ -80,3 +78,7 @@ della tabella e, se cambia il livello di verifica, il relativo indicatore di sol
 - Non viene dichiarata alcuna affiliazione ufficiale.
 
 Note: il sito utilizza immagini esterne di Commons e Apple Music: il loro caricamento dipende dai servizi di origine. Le fotografie nella galleria hanno licenza individualmente verificata, non automaticamente l'intera categoria.
+
+## Controllo automatico del sito
+
+Il workflow di pubblicazione esegue ora `python3 scripts/validate_site.py` prima del deploy: verifica presenza di un titolo `h1` per pagina, file HTML e asset locali referenziati, integrità minima della navigazione e dei metadati. Un errore interrompe il deploy prima della pubblicazione. Non sostituisce il controllo visivo o la verifica in un browser dei servizi esterni.
