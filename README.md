@@ -65,3 +65,18 @@ della tabella e, se cambia il livello di verifica, il relativo indicatore di sol
 (`<span class="sol s-solid|s-one|s-weak">`).
 
 <!-- GitHub Pages: richiesta nuova pubblicazione dal branch main, 2026-10-16. -->
+
+
+## Redesign editoriale v3 (16 ottobre 2026)
+
+- Home aggiornata con fotografia reale di Sandra, documentazione, percorso di navigazione e album in evidenza.
+- `fotografie.html`: sei fotografie verificate di Sven Mandel (Frankfurt 2025), CC BY-SA 4.0, credito e link al file originale per ciascuno. Immagini servite da Wikimedia Commons.
+- `edizioni.html`: dieci album, varianti e collegamento alla preesistente galleria di 24 copertine.
+- `concerti.html`: riportate solo le date future verificate sul sito ufficiale.
+- `media.html`: contenuto editoriale con approfondimenti e risorse ufficiali.
+- Stili estesi su ogni pagina e navigazione unificata.
+- Fonte primaria: https://sandra-music.com/ ; immagini: https://commons.wikimedia.org/wiki/Category:Sandra_-_Die_80er_live_2025
+- Discogs e blog: consultazione documentale; riuso degli artwork solo previa verifica dei diritti.
+- Non viene dichiarata alcuna affiliazione ufficiale.
+
+Note: il sito utilizza immagini esterne di Commons e Apple Music: il loro caricamento dipende dai servizi di origine. Le fotografie nella galleria hanno licenza individualmente verificata, non automaticamente l'intera categoria.
