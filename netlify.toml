@@ -1,0 +1,11 @@
+# Netlify Edition — deploy from branch netlify-light
+# Keep GitHub Pages (main) unaffected.
+[build]
+  publish = "netlify"
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[context.production]
+  publish = "netlify"
