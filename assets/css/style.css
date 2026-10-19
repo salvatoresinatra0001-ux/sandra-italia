@@ -1,13 +1,13 @@
 :root {
-  --ground: #0a1024;
-  --surface: #121a36;
-  --surface-2: #17203f;
-  --line: #2b3760;
-  --ink: #f3ecdd;
-  --muted: #a39c8a;
-  --accent: #d4a93c;
-  --accent-soft: #ecd79a;
-  --accent-2: #79b2a8;
+  --ground: #0c0815;
+  --surface: #1b1127;
+  --surface-2: #281930;
+  --line: #614057;
+  --ink: #fff5f5;
+  --muted: #ceb7bf;
+  --accent: #da7299;
+  --accent-soft: #ffd3df;
+  --accent-2: #b889d4;
   --display: 'Marcellus', Georgia, serif;
   --body: 'Karla', system-ui, sans-serif;
   --wrap: 1180px;
@@ -310,3 +310,11 @@ body:not(.redesign) .sec-head h1{font-family:var(--display);font-weight:400;font
 .biography-photos .photo-gallery-grid,.archive-extra .photo-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .biography-photos .editorial-photo img,.archive-extra .editorial-photo img{height:440px;object-fit:contain;background:#131324}
 @media(max-width:650px){.biography-photos .photo-gallery-grid,.archive-extra .photo-gallery-grid{grid-template-columns:1fr}.biography-photos .editorial-photo img,.archive-extra .editorial-photo img{height:auto;max-height:580px;object-fit:contain}}
+
+/* Sandra editorial v4: wine, rose and ultraviolet gradient system */
+body.redesign{background:radial-gradient(ellipse at 78% 7%,rgba(161,51,98,.18),transparent 33%),var(--ground)}
+body.redesign .site-head{background:color-mix(in srgb,var(--ground) 94%,transparent)}
+body.redesign h1,body.redesign h2{letter-spacing:-.035em}
+body.redesign .brand-name{color:var(--accent-soft)}
+body.redesign .hero,body.redesign [class*="hero-"]{background-image:linear-gradient(125deg,rgba(12,8,21,.55),rgba(98,30,79,.17),rgba(19,12,31,.32))}
+body.redesign a:focus-visible{outline:2px solid var(--accent-soft);outline-offset:4px}
