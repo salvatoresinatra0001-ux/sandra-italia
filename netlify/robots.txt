@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sandra-music-italia.netlify.app/sitemap.xml
